@@ -1,5 +1,4 @@
-# PatternDesignDemo2\
-# 设计模式实验二Demo
+# PatternDesignDemo2 设计模式实验一
 1．在某图形库API中提供了多种矢量图模板，用户可以基于这些矢量图创建不同的显示图形，图形库设计人员设计的初始类图如下所示：\
 在该图形库中，每个图形类（如Circle、Triangle等）的init()方法用于初始化所创建的图形， setColor()方法用于给图形设置边框颜色，fill()方法用于给图形设置填充颜色，setSize()方法用于设置图形的大小，display()方法用于显示图形。\
 客户类(Client)在使用该图形库时发现存在如下问题：\
